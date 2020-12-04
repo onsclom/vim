@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/austin/Projects/DiscordBot'
+let g:netrw_dirhist_3='/home/austin/Projects/terminalArt'
+let g:netrw_dirhist_2='/home/austin/Projects'
+let g:netrw_dirhist_1='/home/austin/Projects/terminalArt'
