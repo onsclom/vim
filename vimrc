@@ -1,6 +1,7 @@
 syntax on
 
 set backspace=2 "allows backspace to delete lines in insert mode on osx
+set belloff=all
 set noerrorbells "no sounds or flashes 
 
 set tabstop=2 softtabstop=2 "how much a tab is worth
@@ -34,8 +35,14 @@ call plug#begin('~/.vim/plugged')
 	  \ 'do': 'yarn install',
 	  \ 'branch': 'release/0.x'
 	  \ }
+	Plug 'valloric/youcompleteme' 
+	Plug 'tpope/vim-surround'
+  Plug 'habamax/vim-godot'
 call plug#end()
 
 "setting gruvbox
 colorscheme gruvbox
 set background=dark
+
+"turning off autopairs auto centering
+let g:AutoPairsCenterLine = 0
